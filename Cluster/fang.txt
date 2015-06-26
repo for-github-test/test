@@ -8,8 +8,3 @@ $ git status
 #   modified:   file2
 #   modified:   file3
 
-如果你要做进一步的修改, 那就继续做, 做完后就把新修改的文件通过add加入到索引中. 最后把他们提交：
-$ git commit
-
-这会提示你输入本次修改的注释，完成后就会记录一个新的项目版本.
-除了用git add命令，我还可以用
