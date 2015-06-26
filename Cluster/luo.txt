@@ -1,4 +1,4 @@
-Create remote repo
+ฮารว
 pwd:/Users/zhanglx/workspace/gittest/
 git init --bare
 Clone repo from remote repo
