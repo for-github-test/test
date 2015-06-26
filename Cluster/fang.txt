@@ -1,0 +1,15 @@
+(如果没有--cached参数，git diff 会显示当前你所有已做的但没有加入到索引里的修改.) 你也可以用git status命令来获得当前项目的一个状况:
+$ git status
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#   modified:   file1
+#   modified:   file2
+#   modified:   file3
+
+如果你要做进一步的修改, 那就继续做, 做完后就把新修改的文件通过add加入到索引中. 最后把他们提交：
+$ git commit
+
+这会提示你输入本次修改的注释，完成后就会记录一个新的项目版本.
+除了用git add命令，我还可以用
