@@ -1,0 +1,16 @@
+Create remote repo
+pwd:/Users/zhanglx/workspace/gittest/
+git init --bare
+Clone repo from remote repo
+git clone /Users/zhanglx/workspace/gittest/
+Init a local git repo and add a remote
+This is equal to "Clone"
+
+mkdir myrepo
+cd myrepo/
+git init
+git remote add origin /Users/zhanglx/workspace/gittest/
+New branch and switch to this branch
+git branch test
+git checkout test
+Type git branch to check which branch you are working on.
