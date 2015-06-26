@@ -1,4 +1,4 @@
-我是你，你从Github网站上能看到你上传的那个README文件了。 如果前面第7步的SSH Key设置不正确，上面的命令可能会提示Permission denied (publickey)
+你们好，你从Github网站上能看到你上传的那个README文件了。 如果前面第7步的SSH Key设置不正确，上面的命令可能会提示Permission denied (publickey)
 10、前面几步都搞定的话，下面可以进入MyEclipse，使用EGit插件进行项目管理了。首先要注意的是MyEclipse的默认联网方式可能不对，会造成你的MyEclipse无法连接到Github网站，所以先进入window-preferences-General-Network connections，把Active Provider设置为Direct（默认为Native）。
 11、在你的工程名上面右击，Team-share project，后面步骤参见 http://wenku.baidu.com/view/dfeb0a24af45b307e871978c.html 
 12、如果想从Github上面导入一个已有工程，请参见 http://www.iteye.com/topic/1122423 图文并茂都很详细
